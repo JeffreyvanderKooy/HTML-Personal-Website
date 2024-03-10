@@ -374,7 +374,8 @@ footer button:hover{
         text-decoration: none;
     }
     .resume-box img{
-        display: none;
+        height: 10px;
+        margin-right: 5px;
     }
     .resume-box li,p {
         font-size: 0.7em;
