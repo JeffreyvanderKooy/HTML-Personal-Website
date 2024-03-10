@@ -1,0 +1,389 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Noto serif;
+}
+.hero-container {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 4em;
+    margin-bottom: 25px;
+    color: aliceblue;
+    background-image: url(./assets/images/pexels-simon-berger-1323550.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.hero h2 {
+    margin: 0;
+}
+.hero h1 {
+    margin-bottom: 30px;
+}
+.hero {
+    font-family: caveat;
+}
+.flex-container1 {
+    display: flex;
+    padding: 30px;
+    margin-bottom: 50px;
+}
+#home {
+    width: 32%;
+    font-size: 1.3em;
+    text-align: justify;
+}
+#home img {
+    float: left;
+    border-radius:5px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+#home h2{
+    margin-top: 0;
+}
+.nav-bar{
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 5px;
+    height: 100%;
+    margin-right: 20%
+}
+.nav-bar ul {
+    padding: 0px;
+    margin-top: 5px;
+    margin-bottom: 5px
+}
+.nav-bar a{
+    text-decoration: none;
+    color: black;   
+}
+.nav-bar li:hover {
+    background-color: hsl(0, 0%, 98%);
+}
+.nav-bar li{
+    font-size: 30px;
+    font-weight: 300;
+    list-style: none;
+    padding: 10px;
+    overflow: hidden;
+}
+.nav-bar img {
+    margin-right: 15px;
+    height: 30px;
+}
+.project-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: 100%;
+    padding: 10px;
+    background-color: hsl(0, 0%, 95%) ;
+}
+
+.project-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    margin: 10px;
+}
+.project-box p{
+    text-align: justify;
+    flex-grow: 1;
+}
+.project-box img {
+    height: 250px;
+    width: 80%;
+    object-fit: contain;
+}
+.project-box button {
+    background-color: white(219, 71%, 40%, 0.816);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.project-box button:hover {
+    background-color: hsla(219, 71%, 50%, 0.816);
+    cursor: pointer;
+}
+.project-box button:active {
+    background-color: hsla(219, 71%, 60%, 0.816);
+    cursor: pointer;
+}
+.about-container {
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    padding: 20px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.gym{
+    width: 35%;
+    text-align: justify;
+}
+.coding{
+    width: 35%;
+    text-align: justify;
+    text-align: left;
+}
+#about img {
+    height: 150px;
+}
+.gym-img{
+    float: left;
+    border-radius: 5px;
+    margin: 15px;
+}
+.coding-img{
+    float: right;
+    border-radius: 5px;
+    margin: 15px;
+}
+.resume-container {
+    padding: 40px 0px;
+    background-color: hsl(0, 0%, 95%);
+    text-align: center;
+    width: 100%;
+}
+.resume-container h3 {
+    margin-bottom: 50px;
+}
+.resume-box-row {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.resume-box{
+    gap: 50px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    display: none;
+}
+#working-experience {
+    justify-content: space-between;
+    display: none;
+    text-align: left;
+}
+#working-experience li {
+    list-style: none;
+    font-weight: 250;
+}
+#working-experience p {
+    margin: 0;
+    font-weight: 600;
+}
+#working-experience ul {
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+}
+.resume-container img {
+    margin-right: 10px;
+    height: 20px;
+}
+#resume p {
+    margin: 0;
+    font-weight: 600;
+}
+#resume li {
+    list-style: none;
+    font-weight: 250;
+}
+#resume ul {
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+}
+#progress-bar-html {
+    border: black 1px solid;
+    border-radius: 5px;
+    height: 7px;
+    width: 100%;
+    background-image: linear-gradient(to right, hsla(240, 100%, 50%, 0.614)40%,  white 50%);
+    margin-bottom: 10px;
+}
+#progress-bar-css {
+    border: black 1px solid;
+    border-radius: 5px;
+    height: 7px;
+    width: 100%;
+    background-image: linear-gradient(to right, hsla(240, 100%, 50%, 0.614)60%,  white 70%);
+    margin-bottom: 10px;
+}
+#progress-bar-js {
+    border: black 1px solid;
+    border-radius: 5px;
+    height: 7px;
+    width: 100%;
+    background-image: linear-gradient(to right, hsla(240, 100%, 50%, 0.614)5%,  white 10%);
+    margin-bottom: 10px;
+}
+.resume-button {
+    background-color: hsla(240, 100%, 50%, 0.614) ;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    max-height: 57px;
+}
+.resume-button:hover {
+    background-color: hsla(240, 100%, 60%, 0.614) ;
+    cursor: pointer;
+}
+#button1:hover + #working-experience {
+    display: flex;
+    animation: 0.5s slideup;
+}
+#button2:hover + #Education-box{
+    display: block;
+    animation: 0.5s slideup;
+}
+#button3:hover + #coding-skill{
+    display: block;
+    animation: 0.5s slideup;
+}
+.grid-container {
+    display: grid;
+    grid-template-areas:"button1 button2 button3"
+                        "workingbox school skillbox" ;
+    justify-content: center;
+    gap: 20px;
+}
+#working-experience{
+    grid-area: workingbox;
+}
+#Education-box{
+    grid-area: school;
+}
+#coding-skill{
+    grid-area: skillbox;
+}
+#button1{
+    grid-area: button1;
+}
+#button2{
+    grid-area: button2;
+}
+#button3{
+    grid-area: button3;
+}
+
+footer {
+    height: 100%;
+    background-color: hsl(0, 0%, 95%);
+    padding: 30px;
+    padding-left: 60px;
+}
+footer h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding-top: 100px;
+}
+footer button{
+    border: none;
+    font-size: 15px;
+}
+footer button:hover{
+    cursor: pointer;
+    background-color: white;
+}
+@keyframes slideup {
+    0% {transform: translateY(60%);}
+    100% {transform: translateY(0%);}
+}
+@media (max-width: 768px) {
+    .hero {
+        font-size: 0.6em;
+    }
+    .nav-bar {
+        display: none;
+    }
+    #home {
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        font-size: 1.15em;
+        text-align: justify;
+    }
+    #home img {
+        height: 150px;
+    }
+    .project-container{
+        flex-direction: column;
+        padding: 20px;
+        align-items: center;
+    }
+    .project-box{
+        width: 70%;
+        height: 300px;
+        object-fit: contain;
+    }
+    .project-box img {
+        max-height: 90px;
+    }
+    .about-container{
+        display: block;
+        align-items: center;
+        gap: 50px ;
+    }
+    .gym{
+        display: inline-block;
+        width: 100%;
+    }
+    .gym-img{
+        width: 150px; 
+    }
+    .coding{
+        display: inline-block;
+        width: 100%;
+    }
+    .coding-img {
+        width: 150px;
+    }
+    .resume-container{
+        padding-left: auto;
+        padding-right: auto;
+    }
+    .grid-container{
+        gap: 5px;
+    }
+    .resume-box{
+        font-size: 0.6em;
+    }
+    .resume-button{
+        font-size: 0.6em;
+        max-width: 100%;
+        color: black;
+        text-decoration: none;
+    }
+    .resume-box img{
+        display: none;
+    }
+    .resume-box li,p {
+        font-size: 0.7em;
+    }  
+    footer {
+        padding-left: 20px;
+    }
+    footer button{
+        color: black;
+        text-decoration: none;
+    }
+    #working-experience{
+        gap: 15px;
+    }
+}

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>J. van der Kooy | MyWebsite</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Madimi+One&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Russo+One&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<section class="header">
+    <div class="hero-container">
+        <div class="hero">
+            <h1>Hi, I'm Jeffrey</h1>
+            <h2>And welcome to my website!</h2>
+        </div>
+    </div>   
+</section>
+<section class="home">
+<div class="flex-container1">
+    <div class="nav-bar">
+       <ul>
+        <a href="#home"><li><img src="./assets/Home-Icon.png" alt="home icon">Home</li></a>
+        <a href="#projects"><li><img src="./assets/Projects-Icon.png" alt="project icon">Projects</li></a>
+        <a href="#about"><li><img src="./assets/About-Icon.png" alt="About icon">About Me</li></a>
+        <a href="#resume"><li><img src="./assets/Resume-Icon.png" alt="Resume-Icon icon">Resume</li></a>
+        <a href="#footer"><li><img src="./assets/Contact-Icon.png" alt="contact icon">Contact</li></a>
+       </ul>
+    </div>
+    <div id="home">
+        <h2>Greetings!</h2>
+        <img src="./assets/Profile-img.jpg" alt="A picture of me" height="200">
+        <p>Hi! I'm a truck driver trying to make his way to become a developer! On this page you'll find some of my latest projects and interests of mine, enjoy your stay and feel free to contact me!</p>
+    </div>
+</div>
+</section>
+<section id="projects">
+    <div class="project-container">
+            <div class="project-box">
+                <h3>TinDog Project</h3>
+                <img src="./assets/TinDog .png" alt="tindog project img">
+                <p>In section 11.3 of my online web development course I had to put together a website using elements from bootstrap and modifying the html code.</p>
+                <a href="./11.3 TinDog Project/index.html" target="_blank"><button>Visit Project</button></a>
+            </div>
+            <div class="project-box">
+                <h3>Mondrian Painting Project</h3>
+                <img src="./assets/MondrianProject.png" alt="Mondrian project img">
+                <p>In section 10.3 of my online web development course i had to make an artistic painting using a grid container.</p>
+                <a href="./10.3 Mondrian Project/index.html" target="_blank"><button>Visit Project</button></a>
+            </div>
+            <div class="project-box">
+                <h3>Pricing Plan Project</h3>
+                <img src="./assets/PricingPlanProject.png" alt="Pricing plan project img">
+                <p>A pricing plan i made wich adapts to the screen size by using a @mediaquiry and changing the display property of the flexbox.</p>
+                <a href="./9.4+Flexbox+Pricing+Table+Project/index.html" target="_blank"><button>Visit Project</button></a>
+            </div>          
+    </div>
+</section>
+<section id="about">
+<div class="about-container">
+    <div class="gym">
+        <img class="gym-img" src="./assets/Gym.jpg" alt="A image of gymnastic rings">
+        <h3>I like to train!</h3>
+        <p>I'm a big believer in having an active lifestyle, thats why you'll regurarly find me in the gym! I love gymnastics and have gotten quite good at it!</p>
+    </div>
+    <div class="coding">
+        <img class="coding-img" src="./assets/Coding.jpg" alt="A image of a coding noteblock">
+        <h3>I love to code!</h3>
+        <p>You geussed it, I like to code. A newly found hobby of mine, perhaps turning into my proffesion? Only time will tell follow me in my journey!</p>
+    </div>
+</div>
+</section>
+<section id="resume">
+    <div class="resume-container">
+        <h3>Hover over the buttons for more information!</h3>
+        <div class="grid-container">
+            <button class="resume-button" id="button1">Working Experience</button>
+            <div class="resume-box" id="working-experience">
+                <div class="working-experience-1">
+                <p><img src="./assets/truck.png" alt="Picture of a truck">Truck driver
+                    <ul>
+                        <li>Planning deliveries</li>
+                        <li>Customer serivce</li>
+                        <li>Problem solving</li>
+                    </ul>
+                </p>
+                <p><img src="./assets/forklift.png" alt="Picture of a forklift">Logistics Worker
+                    <ul>
+                        <li>Orderpicking</li>
+                        <li>Warehouse maintaining</li>
+                    </ul>
+                </p>
+                
+                </div>
+                <div id="working-experience-2">
+                <p><img src="./assets/farm.png" alt="Picture of a tractor">Farm Worker
+                    <ul>
+                        <li>Australia</li>
+                    </ul>
+                </p>
+                <p><img src="./assets/internship.png" alt="Picture of a book">Internships
+                    <ul>
+                        <li>Geodis BV</li>
+                        <li>Prins Transport</li>
+                    </ul>
+                </p>
+                <p><img src="./assets/voluntary.png" alt="Picture of a voluntary">Voluntary Work
+                    <ul>
+                        <li>Blue Cross</li>
+                    </ul>
+                </p>
+            </div>
+            </div>
+            <button class="resume-button" id="button2">Education</button>
+            <div class="resume-box" id="Education-box">
+                <p><img src="./assets/education.png" alt="Education logo">MBO4 Middelbaar Beroepsonderwijs
+                    <ul>
+                        <li>Scheepvaart & Transport College, Nederland</li>
+                        <li>August 2016 / August 2019</li>
+                    </ul>
+                </p>
+                <p><img src="./assets/Udemy.png" alt="Web study icon">Web Development Bootcamp
+                    <ul>
+                        <li>Udemy</li>
+                        <li>Completed</li>
+                    </ul>
+                </p>
+            </div>
+            <button class="resume-button" id="button3">Coding Languages</button>
+            <div class="resume-box" id="coding-skill">
+                <p>HTML</p>
+                <div id="progress-bar-html"></div>
+                <p>CSS</p>
+                <div id="progress-bar-css"></div>
+                <p>JavaScript</p>
+                <div id="progress-bar-js"></div><br>
+                <p>Github</p><br>
+                <p>Frameworks
+                    <ul>
+                        <li>Bootstrap</li>
+                    </ul>
+                </p>
+
+            </div>
+        </div>
+    </div>       
+</section>
+<section class="footer" id="footer">
+    <footer>
+        <h3>&trade; Jeffrey van der Kooy</h3>
+        <a type="Email" href="mailto:[jeffreydebruijn1999@gmail.com]"><img src="./assets/mail.png" height="15px" alt=""><button>Contact</button></a>
+    </footer>
+</section>
+</body>
+</html>
