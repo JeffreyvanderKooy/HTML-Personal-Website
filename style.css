@@ -284,7 +284,6 @@ body {
 #button3{
     grid-area: button3;
 }
-
 footer {
     height: 100%;
     background-color: hsl(0, 0%, 95%);
@@ -368,13 +367,13 @@ footer button:hover{
         font-size: 0.6em;
     }
     .resume-button{
-        font-size: 0.6em;
+        font-size: 0.45em;
         max-width: 100%;
         color: black;
         text-decoration: none;
     }
     .resume-box img{
-        height: 10px;
+        height: 7px;
         margin-right: 5px;
     }
     .resume-box li,p {
@@ -388,6 +387,7 @@ footer button:hover{
         text-decoration: none;
     }
     #working-experience{
-        gap: 15px; 
+        gap: 10px; 
+        font-size: 7px;
     }
 }
