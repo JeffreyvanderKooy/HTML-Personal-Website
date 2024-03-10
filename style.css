@@ -387,6 +387,7 @@ footer button:hover{
         text-decoration: none;
     }
     #working-experience{
-        gap: 15px; 
+        gap: 10px;
+        font-size: 7px; 
     }
 }
