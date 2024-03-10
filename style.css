@@ -388,6 +388,9 @@ footer button:hover{
     }
     #working-experience{
         gap: 10px;
-        font-size: 7px; 
+        font-size: 8px; 
+    }
+    #working-experience li {
+        font-size: 8px;
     }
 }
