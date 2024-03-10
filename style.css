@@ -363,6 +363,7 @@ footer button:hover{
     }
     .grid-container{
         gap: 5px;
+        position: relative;
     }
     .resume-box{
         font-size: 0.6em;
@@ -389,5 +390,6 @@ footer button:hover{
     }
     #working-experience{
         gap: 15px;
+        position: absolute;
     }
 }
